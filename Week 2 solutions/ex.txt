@@ -38,3 +38,4 @@ FROM Sales AS s
 JOIN Items AS i 
 ON s.Item_id = i.Item_id
 WHERE s.Revenue = (SELECT MAX(Revenue) FROM Sales);
+ORDER BY sales.Revenue DESC;
