@@ -1,0 +1,48 @@
+## Practice Questions
+1. How do you assess the statistical significance of an insight
+ANS:
+Statistical significance measures the likelihood that an observed difference or relationship exists, rather than being due to random chance. 
+This is typically done using a hypothesis test. 
+  -> Hypothesis Testing - You formulate a null hypothesis (usually stating that there is no effect or difference) and an alternative hypothesis (stating there is an effect or difference).
+   -> P-Value: The p-value, derived from the test, tells you the probability of observing your results, or more extreme if the null hypothesis is true. A low p-value (usually less than 0.05)
+     suggests that the observed data are unlikely under the null hypothesis, leading to its rejection in favour of the alternative hypothesis.
+   -> Context and Effect Size: It’s also crucial to consider the practical significance of the results, not just the statistical significance. This includes considering the effect size and its relevance in the real-world context.
+
+2. What is the Central Limit Theorem? Explain it. Why is it important?
+ANS: The Central Limit Theorem states that the distribution of sample means approximates a normal distribution (a bell-shaped curve), regardless of the shape of the population distribution, 
+as the sample size becomes large. It is fundamental in statistics because it allows for making inferences about population parameters using sample statistics. 
+The CLT is the basis for many statistical procedures, including hypothesis testing and the construction of confidence intervals.
+
+3. What is the statistical power?
+ANS: Statistical Power: Statistical power is the probability that a statistical test will correctly reject a false null hypothesis (i.e., detect an effect when there is one).
+  Include the significance level of the test, the sample size, the effect size, and the variability of the data. Higher power means a lower risk of a Type II error (failing to detect a real effect).
+
+4. How do you control for biases?
+ANS: Types of Biases include selection bias, measurement bias, and confirmation bias.
+     You can use randomization, blinding, and ensuring representative sampling to control for biases.
+     Also, using valid and reliable measurement instruments and being aware of and adjusting for any confounders can help reduce biases
+
+5. What are confounding variables?
+ANS:  A confounder is a variable that influences both the dependent variable and independent variable, causing a spurious association.
+      Confounding can be controlled through various methods like stratification, multivariable analysis, randomization, and matching in study designs.
+
+
+6. What is A/B testing?
+ANS:  A/B testing is a method of comparing two versions of a webpage or app against each other to determine which one performs better.
+      It involves showing the two variants (A and B) to different segments of users and statistically analyzing which variation performs better for a given conversion goal.
+  Key Elements of A/B Testing:
+ - Hypothesis Formulation: Before starting the test, a hypothesis is formulated. For example, "Version B of the landing page will generate 10% more conversions than version A."
+ -Randomized Experimentation: Participants (like website visitors) are randomly assigned to either the control group (A) or the experimental group (B). This randomization ensures that the two groups are statistically similar, which helps in attributing any differences in outcomes directly to the changes in the version.
+ - Variation: The two groups are exposed to different versions of a product feature, marketing campaign, or user interface. For instance, version A might be the current website design, while version B incorporates a new layout or content.
+ -Measurement: A specific metric or set of metrics is selected to measure the outcome of the test. Common metrics include click-through rates, conversion rates, or time spent on a page.
+ -Statistical Analysis: After collecting sufficient data, statistical analysis is conducted to determine if there is a significant difference between group A and group B. The analysis often involves hypothesis testing to calculate the p-value, which indicates whether the observed difference could have occurred by chance.
+ -Confidence Level: The confidence level (commonly set at 95%) is used in A/B testing to ascertain the likelihood that the difference in results between the two groups is not due to random chance.
+
+
+7. What are confidence intervals?
+ANS: A confidence interval is a range of values, derived from sample statistics, that is likely to contain the value of an unknown population parameter.
+     They provide an estimated range of values likely to include the population parameter, offering an interval estimate as opposed to a single-point estimate.
+     This helps in understanding the uncertainty or variability in the sample estimates.
+
+
+
